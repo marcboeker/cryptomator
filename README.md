@@ -6,7 +6,7 @@ Cryptomator.js is a [Cryptomator](https://github.com/cryptomator/cryptomator) im
 JavaScript/Typescript with a Vuetify front end. No dedicated back end is needed as the complete
 application runs natively in the browser.
 
-![demo](./assets/demo.gif)
+![demo](https://github.com/marcboeker/cryptomator/raw/master/assets/demo.gif)
 
 There is currently one storage adapter available, which is AWS S3. But any other storage provider
 can be added easily. You can even write a custom storage adapter to connect to your own back end.
