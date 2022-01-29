@@ -38,7 +38,8 @@ Part of the front end is based on
 2. Install all dependencies with `yarn install`
 3. Run the development server with `yarn serve`
 4. Open your browser and navigate to [http://localhost:8080](http://localhost:8080).
-5. Enter your AWS credentials and S3 bucket that point your vault.
+5. Enter your AWS credentials and S3 bucket that point to your vault. If you store your credentials
+   in the local storage, please be aware that they are stored as plaintext.
 
 To compile the app for production, run `yarn build`.
 
