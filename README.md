@@ -1,6 +1,7 @@
 # Cryptomator.js
 
-⚠️ _This project is in a prototype state._
+⚠️ _This project is in a prototype state. Please use Chrome as some required APIs are not yet
+polyfilled for other browsers._
 
 Cryptomator.js is a [Cryptomator](https://github.com/cryptomator/cryptomator) implementation in
 JavaScript/Typescript with a Vuetify front end. No dedicated back end is needed as the complete
@@ -21,7 +22,7 @@ The project is divided into two components:
 
 The Cryptomator.js lib currently contains the following functionalities:
 
-- Open vault with password
+- Open vault with your password
 - Browse vault
 - Read/Write files
 - Create directories
@@ -37,7 +38,8 @@ Part of the front end is based on
 1. Clone the repository `git clone https://github.com/marcboeker/cryptomator.git`.
 2. Install all dependencies with `yarn install`
 3. Run the development server with `yarn serve`
-4. Open your browser and navigate to [http://localhost:8080](http://localhost:8080).
+4. Open your browser (Chrome) and navigate to [http://localhost:8080](http://localhost:8080). The
+   latest Chrome browser is needed, as not all required APIs are yet polyfilled for other browsers.
 5. Enter your AWS credentials and S3 bucket that point to your vault. If you store your credentials
    in the local storage, please be aware that they are stored as plaintext.
 
